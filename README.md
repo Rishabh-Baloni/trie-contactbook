@@ -59,7 +59,6 @@
 
 ---
 
-**Previous Version**: Basic Trie autocomplete for phone numbers only
 **Current Version**: Full-featured contact management with name search, persistence, and modern UI
 
 *Built with ❤️ by Rishabh Baloni*
