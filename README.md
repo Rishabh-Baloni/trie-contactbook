@@ -1,6 +1,6 @@
-# Contact Management System V2.0 - Trie Data Structure Implementation
+# Contact Management System - Trie Data Structure Implementation
 
-<a href="https://yogeshiitm.github.io/Trie-autocomplete-search/"><img src="images/screenshot.png"></a>
+<a href="https://rishabh-baloni.github.io/trie-contactbook/"><img src="images/screenshot.png"></a>
 
 ## 🚀 **Enhanced Features**
 
