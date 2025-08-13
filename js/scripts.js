@@ -62,6 +62,36 @@ function setupEventListeners() {
     if (delBtn) {
         delBtn.addEventListener('click', deleteContact);
     }
+
+    // Real-time filtering for delete input
+    if (deleteInput) {
+        deleteInput.addEventListener('input', (e) => {
+            const query = e.target.value.trim();
+            
+            if (query.length === 0) {
+                // Reset to show all contacts
+                updateContactListDisplay();
+                return;
+            }
+
+            // Only filter if input contains numbers
+            if (/^\d+$/.test(query)) {
+                const results = contactList.search(query);
+                
+                // Update the contact list with filtered results
+                if (contactListContainer) {
+                    contactListContainer.innerHTML = '';
+                    results.forEach(contact => {
+                        const contactDiv = createContactListItem(contact);
+                        contactListContainer.appendChild(contactDiv);
+                    });
+                }
+                
+                // Update the count display
+                updateContactCount(results.length);
+            }
+        });
+    }
     
     // Search input events
     if (searchInput) {
