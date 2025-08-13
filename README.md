@@ -2,7 +2,7 @@
 
 <a href="https://yogeshiitm.github.io/Trie-autocomplete-search/"><img src="images/screenshot.png"></a>
 
-## 🚀 **Enhanced Features in V2.0**
+## 🚀 **Enhanced Features**
 
 ### **Core Functionality**
 - **Dual Search Capability**: Search by both contact name AND phone number
@@ -62,4 +62,4 @@
 **Previous Version**: Basic Trie autocomplete for phone numbers only
 **Current Version**: Full-featured contact management with name search, persistence, and modern UI
 
-*Built with ❤️ by Yogesh Agarwala*
+*Built with ❤️ by Rishabh Baloni*
